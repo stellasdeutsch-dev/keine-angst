@@ -213,19 +213,19 @@ section{position:relative;padding-block:clamp(3.4rem,13vw,6.5rem);isolation:isol
 .oct .badge em{font-family:'Marck Script',cursive;font-style:normal;font-size:2rem;display:block;color:var(--gold);margin-bottom:.15rem}
 .oct p{font-size:clamp(.83rem,3.4vw,.95rem);line-height:1.4;opacity:.85}
 
-/* ═══════════════════════ DAN TEXT ═══════════════════════ */
-.dan{max-width:44ch;margin-inline:auto}
-.dan p{font-size:clamp(1.02rem,4.3vw,1.22rem);line-height:1.5}
-.dan p.beat{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(1.1rem,5vw,1.5rem);line-height:1.15;margin-top:1.3em}
-.dan .say{opacity:.92}
-.dan .punch{
+/* ═══════════════════════ ИСТОРИИ ═══════════════════════ */
+.story{max-width:44ch;margin-inline:auto}
+.story p{font-size:clamp(1.02rem,4.3vw,1.22rem);line-height:1.5}
+.story p.beat{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(1.1rem,5vw,1.5rem);line-height:1.15;margin-top:1.3em}
+.story .say{opacity:.92}
+.story .punch{
   font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;
   font-size:clamp(1.3rem,6.4vw,2.1rem);line-height:1.05;margin-top:1.1em;
   color:var(--orange)
 }
-.bg-green .dan .punch,.bg-ink .dan .punch{color:var(--gold)}
-.bg-orange .dan .punch{color:#fff}
-.dan .ps{font-family:'Marck Script',cursive;font-size:clamp(1.3rem,5.6vw,1.7rem);margin-top:1.1em;opacity:.9;line-height:1.25}
+.bg-green .story .punch,.bg-ink .story .punch{color:var(--gold)}
+.bg-orange .story .punch{color:#fff}
+.story .ps{font-family:'Marck Script',cursive;font-size:clamp(1.3rem,5.6vw,1.7rem);margin-top:1.1em;opacity:.9;line-height:1.25}
 
 /* ═══════════════════════ FEARS ═══════════════════════ */
 .fear-nav{display:flex;gap:.5rem;overflow-x:auto;padding:.3rem .1rem 1rem;scrollbar-width:none;-webkit-overflow-scrolling:touch}
@@ -612,9 +612,9 @@ footer .brand{color:var(--cream);justify-content:center;margin-bottom:.8rem}
   </div>
 </section>
 
-<!-- ══════════ ВСТУПЛЕНИЕ ДЭНА ══════════ -->
+<!-- ══════════ ВСТУПЛЕНИЕ ══════════ -->
 <section class="bg-ink tex chev-bot">
-  <div class="wrap dan">
+  <div class="wrap story">
     <p class="beat rv">У меня был сертификат B1.</p>
     <p class="rv" style="--d:80ms">У сертификата была папка. В папке лежал сертификат. Больше в папке не лежало ничего.</p>
     <p class="rv" style="--d:160ms">Я сдал его с первого раза. Я гордился. Я показывал его знакомым.</p>
@@ -645,7 +645,7 @@ footer .brand{color:var(--cream);justify-content:center;margin-bottom:.8rem}
     <details class="fear rv" id="f1" open>
       <summary><span class="num">1</span><span class="ttl">Страх показаться глупым</span><span class="plus"></span></summary>
       <div class="fear-body">
-        <div class="dan" style="margin-inline:0;max-width:52ch">
+        <div class="story" style="margin-inline:0;max-width:52ch">
           <p>Я жил рядом с Bäckerei. В Bäckerei работала женщина. Женщина знала меня в лицо. В лицо — и всё.</p>
           <p class="say">Захожу. Говорю, ein Brötchen bitte. Она говорит, welches?</p>
           <p class="say">Слово welches я знаю. Названий булок я не знаю ни одного.</p>
@@ -680,7 +680,7 @@ footer .brand{color:var(--cream);justify-content:center;margin-bottom:.8rem}
     <details class="fear rv" id="f2">
       <summary><span class="num">2</span><span class="ttl">Страх не получить желаемое</span><span class="plus"></span></summary>
       <div class="fear-body">
-        <div class="dan" style="margin-inline:0;max-width:52ch">
+        <div class="story" style="margin-inline:0;max-width:52ch">
           <p>Мне был нужен Termin. Termin был нужен к врачу. К врачу я записывался по телефону. Телефон я боялся.</p>
           <p class="say">Звоню. Говорю, ich brauche einen Termin. Говорит, wann?</p>
           <p class="say">Говорю, Dienstag. Говорит, um vierzehn Uhr dreißig?</p>
@@ -715,7 +715,7 @@ footer .brand{color:var(--cream);justify-content:center;margin-bottom:.8rem}
     <details class="fear rv" id="f3">
       <summary><span class="num">3</span><span class="ttl">Страх оказаться хуже других</span><span class="plus"></span></summary>
       <div class="fear-body">
-        <div class="dan" style="margin-inline:0;max-width:52ch">
+        <div class="story" style="margin-inline:0;max-width:52ch">
           <p>На курсе была Оксана. Оксана знала все артикли. Все артикли знала одна Оксана.</p>
           <p class="say">Она поднимала руку. Она поправляла преподавателя. Один раз она поправила его правильно.</p>
           <p>Я сидел сзади и думал, что мне язык просто не дан.</p>
@@ -745,7 +745,7 @@ footer .brand{color:var(--cream);justify-content:center;margin-bottom:.8rem}
     <details class="fear rv" id="f4">
       <summary><span class="num">4</span><span class="ttl">Страх не справиться</span><span class="plus"></span></summary>
       <div class="fear-body">
-        <div class="dan" style="margin-inline:0;max-width:52ch">
+        <div class="story" style="margin-inline:0;max-width:52ch">
           <p>Мне пришло письмо. Письмо было из Finanzamt. В письме было слово Einkommensteuererklärung.</p>
           <p>Я прочитал первую строку. Дальше не читал.</p>
           <p>Конверт лежал на тумбочке. Я ходил мимо конверта. Конверт лежал.</p>
@@ -780,7 +780,7 @@ footer .brand{color:var(--cream);justify-content:center;margin-bottom:.8rem}
     <details class="fear rv" id="f5">
       <summary><span class="num">5</span><span class="ttl">Страх несовершенства</span><span class="plus"></span></summary>
       <div class="fear-body">
-        <div class="dan" style="margin-inline:0;max-width:52ch">
+        <div class="story" style="margin-inline:0;max-width:52ch">
           <p>У меня есть друг Артём. Артём учит немецкий четыре года. Артём ни разу не говорил с немцем.</p>
           <p class="say">Говорю, почему. Говорит, грамматика пока слабая.</p>
           <p class="say">Говорю, а когда будет сильная. Говорит, вот доучу Konjunktiv II — и начну.</p>
@@ -1120,7 +1120,7 @@ footer .brand{color:var(--cream);justify-content:center;margin-bottom:.8rem}
 
 <!-- ══════════ ФИНАЛ ══════════ -->
 <section class="bg-green tex chev-bot">
-  <div class="wrap dan" style="text-align:center">
+  <div class="wrap story" style="text-align:center">
     <p class="beat rv">Немецкий — единственное, что не бесполезно знать даже плохо.</p>
     <p class="rv" style="--d:80ms">Плохой скрипач мучает зал. Плохой химик опасен. Плохой врач сидит.</p>
     <p class="rv" style="--d:160ms">Плохой немецкий довозит вас до нужного вокзала. Иногда не до того. Но довозит.</p>
